@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03558DED1B8A2F9F0000F5A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03558DEA1B8A2F9F0000F5A5 /* Assets.xcassets */; };
+		03558DF01B8A2FB70000F5A5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03558DEF1B8A2FB70000F5A5 /* main.swift */; };
 		035E24401B88FA96006FE5FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E243F1B88FA96006FE5FE /* AppDelegate.swift */; };
-		035E24421B88FA96006FE5FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035E24411B88FA96006FE5FE /* Assets.xcassets */; };
-		035E24451B88FA96006FE5FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035E24431B88FA96006FE5FE /* MainMenu.xib */; };
 		035E24501B88FA96006FE5FE /* BagelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E244F1B88FA96006FE5FE /* BagelTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,10 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03558DEA1B8A2F9F0000F5A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03558DEF1B8A2FB70000F5A5 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		035E243C1B88FA96006FE5FE /* Bagel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bagel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		035E243F1B88FA96006FE5FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		035E24411B88FA96006FE5FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		035E24441B88FA96006FE5FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		035E24461B88FA96006FE5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		035E244B1B88FA96006FE5FE /* BagelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BagelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		035E244F1B88FA96006FE5FE /* BagelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagelTests.swift; sourceTree = "<group>"; };
@@ -52,11 +52,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03558DE91B8A2F9F0000F5A5 /* Resourcres */ = {
+			isa = PBXGroup;
+			children = (
+				03558DEA1B8A2F9F0000F5A5 /* Assets.xcassets */,
+			);
+			path = Resourcres;
+			sourceTree = "<group>";
+		};
+		03558DF11B8A2FBB0000F5A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03558DEF1B8A2FB70000F5A5 /* main.swift */,
+				035E24461B88FA96006FE5FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		035E24331B88FA96006FE5FE = {
 			isa = PBXGroup;
 			children = (
 				035E243E1B88FA96006FE5FE /* Bagel */,
 				035E244E1B88FA96006FE5FE /* BagelTests */,
+				03558DE91B8A2F9F0000F5A5 /* Resourcres */,
 				035E243D1B88FA96006FE5FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,9 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				035E243F1B88FA96006FE5FE /* AppDelegate.swift */,
-				035E24411B88FA96006FE5FE /* Assets.xcassets */,
-				035E24431B88FA96006FE5FE /* MainMenu.xib */,
-				035E24461B88FA96006FE5FE /* Info.plist */,
+				03558DF11B8A2FBB0000F5A5 /* Supporting Files */,
 			);
 			path = Bagel;
 			sourceTree = "<group>";
@@ -170,8 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				035E24421B88FA96006FE5FE /* Assets.xcassets in Resources */,
-				035E24451B88FA96006FE5FE /* MainMenu.xib in Resources */,
+				03558DED1B8A2F9F0000F5A5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03558DF01B8A2FB70000F5A5 /* main.swift in Sources */,
 				035E24401B88FA96006FE5FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,17 +226,6 @@
 			targetProxy = 035E244C1B88FA96006FE5FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		035E24431B88FA96006FE5FE /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				035E24441B88FA96006FE5FE /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		035E24521B88FA96006FE5FE /* Debug */ = {
@@ -310,6 +315,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Bagel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.xoul.Bagel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -322,6 +328,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Bagel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.xoul.Bagel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
