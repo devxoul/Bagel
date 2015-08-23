@@ -112,6 +112,34 @@ extension AppDelegate: NSApplicationDelegate {
         self.window.contentView.addSubview(self.openButton)
         self.window.contentView.addSubview(self.indicator)
         self.window.contentView.addSubview(self.label)
+
+        let mainMenu = NSMenu()
+
+        // Bagel
+        let bagelMenu = NSMenuItem()
+        bagelMenu.submenu = NSMenu()
+        bagelMenu.submenu!.addItemWithTitle("Hide Bagel", action: "hide:", keyEquivalent: "h")
+        bagelMenu.submenu!.addItemWithTitle("Hide Others", action: "hideOtherApplications:", keyEquivalent: "h")?
+            .keyEquivalentModifierMask =
+            Int(NSEventModifierFlags.CommandKeyMask.rawValue | NSEventModifierFlags.AlternateKeyMask.rawValue)
+        bagelMenu.submenu!.addItem(NSMenuItem.separatorItem())
+        bagelMenu.submenu!.addItemWithTitle("Quit Bagel", action: "terminate:", keyEquivalent: "q")
+        mainMenu.addItem(bagelMenu)
+
+        // File
+        let fileMenu = NSMenuItem()
+        fileMenu.submenu = NSMenu(title: "File")
+        fileMenu.submenu!.addItemWithTitle("Close Window", action: "terminate:", keyEquivalent: "w")
+        fileMenu.submenu!.addItem(NSMenuItem.separatorItem())
+        fileMenu.submenu!.addItemWithTitle("Open", action: "openDocument:", keyEquivalent: "o")
+        mainMenu.addItem(fileMenu)
+
+        // Help
+        let helpMenu = NSMenuItem()
+        helpMenu.submenu = NSMenu(title: "Help")
+        mainMenu.addItem(helpMenu)
+
+        NSApp.mainMenu = mainMenu
     }
 
     public func applicationWillTerminate(aNotification: NSNotification) {
