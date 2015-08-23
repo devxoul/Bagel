@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03558DED1B8A2F9F0000F5A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03558DEA1B8A2F9F0000F5A5 /* Assets.xcassets */; };
 		03558DF01B8A2FB70000F5A5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03558DEF1B8A2FB70000F5A5 /* main.swift */; };
 		03558DF31B8A32E40000F5A5 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03558DF21B8A32E40000F5A5 /* Converter.swift */; };
-		03558DFF1B8A35410000F5A5 /* convert in Resources */ = {isa = PBXBuildFile; fileRef = 03558DFC1B8A35410000F5A5 /* convert */; };
-		03558E001B8A35410000F5A5 /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = 03558DFD1B8A35410000F5A5 /* ffmpeg */; };
-		03558E011B8A35410000F5A5 /* gifsicle in Resources */ = {isa = PBXBuildFile; fileRef = 03558DFE1B8A35410000F5A5 /* gifsicle */; };
+		03558E151B8A45000000F5A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03558E0F1B8A45000000F5A5 /* Assets.xcassets */; };
+		03558E161B8A45000000F5A5 /* convert in Resources */ = {isa = PBXBuildFile; fileRef = 03558E111B8A45000000F5A5 /* convert */; };
+		03558E171B8A45000000F5A5 /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = 03558E121B8A45000000F5A5 /* ffmpeg */; };
+		03558E181B8A45000000F5A5 /* gifsicle in Resources */ = {isa = PBXBuildFile; fileRef = 03558E131B8A45000000F5A5 /* gifsicle */; };
+		03558E191B8A45000000F5A5 /* icon.fla in Resources */ = {isa = PBXBuildFile; fileRef = 03558E141B8A45000000F5A5 /* icon.fla */; };
 		035E24401B88FA96006FE5FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E243F1B88FA96006FE5FE /* AppDelegate.swift */; };
 		035E24501B88FA96006FE5FE /* BagelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E244F1B88FA96006FE5FE /* BagelTests.swift */; };
 /* End PBXBuildFile section */
@@ -28,12 +29,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03558DEA1B8A2F9F0000F5A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03558DEF1B8A2FB70000F5A5 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		03558DF21B8A32E40000F5A5 /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
-		03558DFC1B8A35410000F5A5 /* convert */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = convert; sourceTree = "<group>"; };
-		03558DFD1B8A35410000F5A5 /* ffmpeg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffmpeg; sourceTree = "<group>"; };
-		03558DFE1B8A35410000F5A5 /* gifsicle */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = gifsicle; sourceTree = "<group>"; };
+		03558E0F1B8A45000000F5A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03558E111B8A45000000F5A5 /* convert */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = convert; sourceTree = "<group>"; };
+		03558E121B8A45000000F5A5 /* ffmpeg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffmpeg; sourceTree = "<group>"; };
+		03558E131B8A45000000F5A5 /* gifsicle */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = gifsicle; sourceTree = "<group>"; };
+		03558E141B8A45000000F5A5 /* icon.fla */ = {isa = PBXFileReference; lastKnownFileType = file; path = icon.fla; sourceTree = "<group>"; };
 		035E243C1B88FA96006FE5FE /* Bagel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bagel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		035E243F1B88FA96006FE5FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		035E24461B88FA96006FE5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,15 +62,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03558DE91B8A2F9F0000F5A5 /* Resourcres */ = {
-			isa = PBXGroup;
-			children = (
-				03558DEA1B8A2F9F0000F5A5 /* Assets.xcassets */,
-				03558DFB1B8A35410000F5A5 /* bin */,
-			);
-			path = Resourcres;
-			sourceTree = "<group>";
-		};
 		03558DF11B8A2FBB0000F5A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,12 +71,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		03558DFB1B8A35410000F5A5 /* bin */ = {
+		03558E0E1B8A45000000F5A5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				03558DFC1B8A35410000F5A5 /* convert */,
-				03558DFD1B8A35410000F5A5 /* ffmpeg */,
-				03558DFE1B8A35410000F5A5 /* gifsicle */,
+				03558E0F1B8A45000000F5A5 /* Assets.xcassets */,
+				03558E101B8A45000000F5A5 /* bin */,
+				03558E141B8A45000000F5A5 /* icon.fla */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		03558E101B8A45000000F5A5 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				03558E111B8A45000000F5A5 /* convert */,
+				03558E121B8A45000000F5A5 /* ffmpeg */,
+				03558E131B8A45000000F5A5 /* gifsicle */,
 			);
 			path = bin;
 			sourceTree = "<group>";
@@ -93,7 +96,7 @@
 			children = (
 				035E243E1B88FA96006FE5FE /* Bagel */,
 				035E244E1B88FA96006FE5FE /* BagelTests */,
-				03558DE91B8A2F9F0000F5A5 /* Resourcres */,
+				03558E0E1B8A45000000F5A5 /* Resources */,
 				035E243D1B88FA96006FE5FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -206,10 +209,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03558DFF1B8A35410000F5A5 /* convert in Resources */,
-				03558E001B8A35410000F5A5 /* ffmpeg in Resources */,
-				03558E011B8A35410000F5A5 /* gifsicle in Resources */,
-				03558DED1B8A2F9F0000F5A5 /* Assets.xcassets in Resources */,
+				03558E161B8A45000000F5A5 /* convert in Resources */,
+				03558E191B8A45000000F5A5 /* icon.fla in Resources */,
+				03558E171B8A45000000F5A5 /* ffmpeg in Resources */,
+				03558E181B8A45000000F5A5 /* gifsicle in Resources */,
+				03558E151B8A45000000F5A5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
