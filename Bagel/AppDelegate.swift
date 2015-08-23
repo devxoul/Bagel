@@ -73,9 +73,9 @@ extension AppDelegate: NSApplicationDelegate {
 
     public func applicationDidFinishLaunching(aNotification: NSNotification) {
         let contentRect = NSRect(x: 0, y: 0, width: 300, height: 200)
-        let styleMask = NSTitledWindowMask | NSClosableWindowMask | NSMiniaturizableWindowMask
+        let styleMask = (NSTitledWindowMask | NSClosableWindowMask | NSMiniaturizableWindowMask |
+                         NSTexturedBackgroundWindowMask)
         self.window = NSWindow(contentRect: contentRect, styleMask: styleMask, backing: .Buffered, `defer`: false)
-        self.window.title = "Bagel"
         self.window.hasShadow = true
         self.window.opaque = false
         self.window.movableByWindowBackground = true
