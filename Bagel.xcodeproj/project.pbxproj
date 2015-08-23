@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035E24401B88FA96006FE5FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E243F1B88FA96006FE5FE /* AppDelegate.swift */; };
+		035E24421B88FA96006FE5FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035E24411B88FA96006FE5FE /* Assets.xcassets */; };
+		035E24451B88FA96006FE5FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035E24431B88FA96006FE5FE /* MainMenu.xib */; };
+		035E24501B88FA96006FE5FE /* BagelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E244F1B88FA96006FE5FE /* BagelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		035E244C1B88FA96006FE5FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035E24341B88FA96006FE5FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035E243B1B88FA96006FE5FE;
+			remoteInfo = Bagel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035E243C1B88FA96006FE5FE /* Bagel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bagel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		035E243F1B88FA96006FE5FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		035E24411B88FA96006FE5FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		035E24441B88FA96006FE5FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		035E24461B88FA96006FE5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035E244B1B88FA96006FE5FE /* BagelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BagelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		035E244F1B88FA96006FE5FE /* BagelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagelTests.swift; sourceTree = "<group>"; };
+		035E24511B88FA96006FE5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		035E24391B88FA96006FE5FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035E24481B88FA96006FE5FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035E24331B88FA96006FE5FE = {
+			isa = PBXGroup;
+			children = (
+				035E243E1B88FA96006FE5FE /* Bagel */,
+				035E244E1B88FA96006FE5FE /* BagelTests */,
+				035E243D1B88FA96006FE5FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		035E243D1B88FA96006FE5FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				035E243C1B88FA96006FE5FE /* Bagel.app */,
+				035E244B1B88FA96006FE5FE /* BagelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		035E243E1B88FA96006FE5FE /* Bagel */ = {
+			isa = PBXGroup;
+			children = (
+				035E243F1B88FA96006FE5FE /* AppDelegate.swift */,
+				035E24411B88FA96006FE5FE /* Assets.xcassets */,
+				035E24431B88FA96006FE5FE /* MainMenu.xib */,
+				035E24461B88FA96006FE5FE /* Info.plist */,
+			);
+			path = Bagel;
+			sourceTree = "<group>";
+		};
+		035E244E1B88FA96006FE5FE /* BagelTests */ = {
+			isa = PBXGroup;
+			children = (
+				035E244F1B88FA96006FE5FE /* BagelTests.swift */,
+				035E24511B88FA96006FE5FE /* Info.plist */,
+			);
+			path = BagelTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		035E243B1B88FA96006FE5FE /* Bagel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035E24541B88FA96006FE5FE /* Build configuration list for PBXNativeTarget "Bagel" */;
+			buildPhases = (
+				035E24381B88FA96006FE5FE /* Sources */,
+				035E24391B88FA96006FE5FE /* Frameworks */,
+				035E243A1B88FA96006FE5FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bagel;
+			productName = Bagel;
+			productReference = 035E243C1B88FA96006FE5FE /* Bagel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		035E244A1B88FA96006FE5FE /* BagelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035E24571B88FA96006FE5FE /* Build configuration list for PBXNativeTarget "BagelTests" */;
+			buildPhases = (
+				035E24471B88FA96006FE5FE /* Sources */,
+				035E24481B88FA96006FE5FE /* Frameworks */,
+				035E24491B88FA96006FE5FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				035E244D1B88FA96006FE5FE /* PBXTargetDependency */,
+			);
+			name = BagelTests;
+			productName = BagelTests;
+			productReference = 035E244B1B88FA96006FE5FE /* BagelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		035E24341B88FA96006FE5FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Suyeol Jeon";
+				TargetAttributes = {
+					035E243B1B88FA96006FE5FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					035E244A1B88FA96006FE5FE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 035E243B1B88FA96006FE5FE;
+					};
+				};
+			};
+			buildConfigurationList = 035E24371B88FA96006FE5FE /* Build configuration list for PBXProject "Bagel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 035E24331B88FA96006FE5FE;
+			productRefGroup = 035E243D1B88FA96006FE5FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				035E243B1B88FA96006FE5FE /* Bagel */,
+				035E244A1B88FA96006FE5FE /* BagelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		035E243A1B88FA96006FE5FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035E24421B88FA96006FE5FE /* Assets.xcassets in Resources */,
+				035E24451B88FA96006FE5FE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035E24491B88FA96006FE5FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		035E24381B88FA96006FE5FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035E24401B88FA96006FE5FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035E24471B88FA96006FE5FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035E24501B88FA96006FE5FE /* BagelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		035E244D1B88FA96006FE5FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 035E243B1B88FA96006FE5FE /* Bagel */;
+			targetProxy = 035E244C1B88FA96006FE5FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		035E24431B88FA96006FE5FE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035E24441B88FA96006FE5FE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		035E24521B88FA96006FE5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		035E24531B88FA96006FE5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		035E24551B88FA96006FE5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Bagel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.xoul.Bagel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		035E24561B88FA96006FE5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Bagel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.xoul.Bagel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		035E24581B88FA96006FE5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BagelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.xoul.BagelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bagel.app/Contents/MacOS/Bagel";
+			};
+			name = Debug;
+		};
+		035E24591B88FA96006FE5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BagelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.xoul.BagelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bagel.app/Contents/MacOS/Bagel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		035E24371B88FA96006FE5FE /* Build configuration list for PBXProject "Bagel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035E24521B88FA96006FE5FE /* Debug */,
+				035E24531B88FA96006FE5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035E24541B88FA96006FE5FE /* Build configuration list for PBXNativeTarget "Bagel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035E24551B88FA96006FE5FE /* Debug */,
+				035E24561B88FA96006FE5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035E24571B88FA96006FE5FE /* Build configuration list for PBXNativeTarget "BagelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035E24581B88FA96006FE5FE /* Debug */,
+				035E24591B88FA96006FE5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 035E24341B88FA96006FE5FE /* Project object */;
+}
