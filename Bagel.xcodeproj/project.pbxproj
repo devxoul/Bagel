@@ -13,7 +13,6 @@
 		03558E161B8A45000000F5A5 /* convert in Resources */ = {isa = PBXBuildFile; fileRef = 03558E111B8A45000000F5A5 /* convert */; };
 		03558E171B8A45000000F5A5 /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = 03558E121B8A45000000F5A5 /* ffmpeg */; };
 		03558E181B8A45000000F5A5 /* gifsicle in Resources */ = {isa = PBXBuildFile; fileRef = 03558E131B8A45000000F5A5 /* gifsicle */; };
-		03558E191B8A45000000F5A5 /* icon.fla in Resources */ = {isa = PBXBuildFile; fileRef = 03558E141B8A45000000F5A5 /* icon.fla */; };
 		035E24401B88FA96006FE5FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E243F1B88FA96006FE5FE /* AppDelegate.swift */; };
 		035E24501B88FA96006FE5FE /* BagelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035E244F1B88FA96006FE5FE /* BagelTests.swift */; };
 /* End PBXBuildFile section */
@@ -35,7 +34,6 @@
 		03558E111B8A45000000F5A5 /* convert */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = convert; sourceTree = "<group>"; };
 		03558E121B8A45000000F5A5 /* ffmpeg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffmpeg; sourceTree = "<group>"; };
 		03558E131B8A45000000F5A5 /* gifsicle */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = gifsicle; sourceTree = "<group>"; };
-		03558E141B8A45000000F5A5 /* icon.fla */ = {isa = PBXFileReference; lastKnownFileType = file; path = icon.fla; sourceTree = "<group>"; };
 		035E243C1B88FA96006FE5FE /* Bagel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bagel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		035E243F1B88FA96006FE5FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		035E24461B88FA96006FE5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,7 +74,6 @@
 			children = (
 				03558E0F1B8A45000000F5A5 /* Assets.xcassets */,
 				03558E101B8A45000000F5A5 /* bin */,
-				03558E141B8A45000000F5A5 /* icon.fla */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -210,7 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				03558E161B8A45000000F5A5 /* convert in Resources */,
-				03558E191B8A45000000F5A5 /* icon.fla in Resources */,
 				03558E171B8A45000000F5A5 /* ffmpeg in Resources */,
 				03558E181B8A45000000F5A5 /* gifsicle in Resources */,
 				03558E151B8A45000000F5A5 /* Assets.xcassets in Resources */,
