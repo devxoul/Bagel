@@ -20,10 +20,9 @@ import Cocoa
 
 public func convert(path: String, completion: (String? -> Void)? = nil) {
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) {
-        if let giffile = _convert(path) {
-            dispatch_async(dispatch_get_main_queue()) {
-                completion?(giffile)
-            }
+        let giffile = _convert(path)
+        dispatch_async(dispatch_get_main_queue()) {
+            completion?(giffile)
         }
     }
 }
