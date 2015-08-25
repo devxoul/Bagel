@@ -62,11 +62,15 @@ private func _convert(path: String) -> String? {
     }
 
     NSLog("Mapping...")
-    sh("\(ffmpeg) -i \(path) -r 30 -vcodec png \(tempDir)/out-static-%05d.png")
+    if sh("\(ffmpeg) -i \(path) -r 30 -vcodec png \(tempDir)/out-static-%05d.png") != 0 {
+        return nil
+    }
 
     NSLog("Reducing...")
-    sh("time \(convert) -verbose +dither -layers Optimize -resize 600x600\\> \(tempDir)/out-static*.png GIF:-" +
-       " | \(gifsicle) --colors 256 --loop --optimize=3 --delay 3 --multifile - > \(target)")
+    if sh("time \(convert) -verbose +dither -layers Optimize -resize 600x600\\> \(tempDir)/out-static*.png GIF:-" +
+          " | \(gifsicle) --colors 256 --loop --optimize=3 --delay 3 --multifile - > \(target)") != 0 {
+        return nil
+    }
 
     return target
 }
