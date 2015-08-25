@@ -71,9 +71,9 @@ private func _convert(path: String) -> String? {
     return target
 }
 
-private func sh(command: String) {
+private func sh(command: String) -> Int32 {
     NSLog(command)
-
     let task = NSTask.launchedTaskWithLaunchPath("/bin/sh", arguments: ["-c", command])
     task.waitUntilExit()
+    return task.terminationStatus
 }
